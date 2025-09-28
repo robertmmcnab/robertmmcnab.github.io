@@ -28,6 +28,8 @@ I am testing ECON 700. This is a simple test.
 
 For more details, see econ 700.
 
+Testing again
+
 Trying to figure this out.
 
 ```{r}

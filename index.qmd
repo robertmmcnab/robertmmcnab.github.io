@@ -72,14 +72,22 @@ ggplot(data = unrate,
 
 ## Basic Operations
 
-Try some R calculations in your browser using WebR:
+Let's first try some basic math operations in R using webR. 
+
+Notice that when you run the code that R produces the output. 
+
+Try adding the following to the code and executing the code: $(6 \times 12)/24$.
 
 
 ```{webr-r}
+
 # Basic math examples
 5 + 5
+
 10 / 3
+
 4 + 3 * 100
+
 (4 + 3) * 100
 
 ```

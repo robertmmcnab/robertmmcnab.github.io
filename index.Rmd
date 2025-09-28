@@ -14,19 +14,20 @@ output:
     fig_width: 5
     fig_height: 5
     dev: jpeg
-knit: >
-  (function(inputFile, ...) {
-    rmarkdown::render(inputFile, output_file = 'index.html')
-  })
+header-includes:
+  - |
+    <script type="module">
+      import { WebR } from "https://webr.r-wasm.org/latest/webr.mjs";
+      window.webr = new WebR();
+      await webr.init();
+    </script>
 ---
-
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Test 
+## Test
 
 I am testing ECON 700. This is a simple test.
 
@@ -44,20 +45,32 @@ print(x*y)
 
 ```
 
+cat('
 
+<h3>Simple webR Calculation</h3>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+::: {#webr-output}
+Calculating...
+:::
 
-```{r cars}
-summary(cars)
+```{=html}
+<script type="module">
+async function runSimpleR() {
+  // Initialize webR if not already done
+  if (!window.webr) {
+    const { WebR } = await import("https://webr.r-wasm.org/latest/webr.mjs");
+    window.webr = new WebR();
+    await webr.init();
+  }
+
+  // Run simple R code
+  const result = await webr.evalR("1 + 2 + 3");
+  document.getElementById("webr-output").innerText = "R says: " + result.toString();
+}
+
+// Run the async function
+runSimpleR();
+</script>
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+')

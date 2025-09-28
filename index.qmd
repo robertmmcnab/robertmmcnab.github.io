@@ -1,0 +1,35 @@
+---
+title: "ECON 700 Main Page"
+author: "Bob McNab"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-floating: true
+    toc-floating-right: true
+    self-contained: true
+execute:
+  webR: true
+---
+
+# Introduction
+
+Welcome to the ECON 700 main page.  
+The table of contents floats on the **right side**.
+
+---
+
+# Basic Operations
+
+Try some R calculations in your browser using WebR:
+
+
+```{webr-r}
+# Basic math examples
+5 + 5
+10 / 3
+4 + 3 * 100
+(4 + 3) * 100
+
+```
+

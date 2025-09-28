@@ -3,11 +3,14 @@ ECON 700 Main Page
 Bob McNab
 2025-09-28
 
+- [Test](#test)
+- [Including Plots](#including-plots)
+
 ## Test
 
 I am testing ECON 700.
 
-For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+For more details, see the test page.
 
 When you click the **Knit** button a document will be generated that
 includes both content as well as the output of any embedded R code
@@ -29,7 +32,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-![](Index_files/figure-gfm/pressure-1.png)<!-- -->
+![](Index_files/figure-gfm/pressure-1.jpeg)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.

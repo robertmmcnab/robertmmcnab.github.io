@@ -17,6 +17,8 @@ execute:
 Welcome to the ECON 700 main page.  
 The table of contents floats on the **right side**.
 
+This is an example of webR below.
+
 ---
 
 # Basic Operations
@@ -33,3 +35,16 @@ Try some R calculations in your browser using WebR:
 
 ```
 
+
+Another example
+
+Try some of these with WebR:
+
+```{webr-r}
+TRUE & FALSE
+# TRUE | TRUE
+# TRUE & !FALSE
+# TRUE & (TRUE | FALSE)
+# TRUE & (TRUE & FALSE)
+# !(TRUE | FALSE)
+```

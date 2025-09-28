@@ -10,7 +10,17 @@ Bob McNab
 
 I am testing ECON 700.
 
-For more details, see the test page.
+For more details, see econ 700.
+
+Trying to figure this out.
+
+``` r
+x <- 5
+y <- 10
+print(x*y)
+```
+
+    ## [1] 50
 
 When you click the **Knit** button a document will be generated that
 includes both content as well as the output of any embedded R code

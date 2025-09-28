@@ -4,12 +4,19 @@ author: "Bob McNab"
 date: "`r Sys.Date()`"
 output: 
   html_document:
+    self_contained: true
     toc: true
     toc_depth: 2
     fig_width: 5
     fig_height: 5
     dev: jpeg
+knit: >
+  (function(inputFile, ...) {
+    rmarkdown::render(inputFile, output_file = 'index.html')
+  })
 ---
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

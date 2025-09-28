@@ -6,8 +6,7 @@ format:
   html:
     toc: true
     toc-depth: 3
-    toc-floating: true
-    toc-floating-right: true
+    toc-location: right
     self-contained: true
 execute:
   webR: true

@@ -8,7 +8,7 @@ Bob McNab
 
 ## Test
 
-I am testing ECON 700.
+I am testing ECON 700. This is a simple test.
 
 For more details, see econ 700.
 

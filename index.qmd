@@ -7,10 +7,13 @@ format:
     toc: true
     toc-depth: 3
     toc-location: right
-    self-contained: true
+    self-contained: false     # must be false when using webr
+filters:
+  - webr
 execute:
   webR: true
 ---
+
 
 # Introduction
 

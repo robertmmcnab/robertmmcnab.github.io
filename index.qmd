@@ -14,4 +14,6 @@ This is the main landing page for ECON 700.
 
 ## Overview
 
-This site provides interactive and static examples for economic data analysis using R and WebR. Click on the links above to explore each section.
+This site provides interactive and static examples for economic data analysis using R and WebR. 
+
+Click on the links above to explore each section.

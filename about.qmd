@@ -4,9 +4,7 @@ format: html
 editor: visual
 ---
 
-## Quarto
-
-title: "About ECON 700"
+## ECON 700
 
 ---
 

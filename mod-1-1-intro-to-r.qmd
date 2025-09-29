@@ -76,6 +76,8 @@ Notice that when you run the code that R produces the output.
 
 Try adding the following to the code and executing the code: $(6 \times 12)/24$.
 
+What happens?
+
 ```{webr-r}
 
 # Basic math examples

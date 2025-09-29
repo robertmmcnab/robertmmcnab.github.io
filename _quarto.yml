@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "ECON 700"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Module 1"
+        href: mod-1-1-intro-to-r.qmd
+
+execute:
+  webR: true
+
+format:
+  html:
+    toc: true
+    toc-location: right
+    self-contained: false
+
+filters:
+  - webr
+

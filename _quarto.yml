@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs   # <- critical line
 
 website:
   title: "ECON 700"
@@ -23,4 +24,6 @@ format:
 
 filters:
   - webr
+
+
 

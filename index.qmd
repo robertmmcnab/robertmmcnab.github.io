@@ -11,6 +11,7 @@ format:
 
 Chair and Professor of Economics <br>
 Department of Economics <br>
+Strome College of Business <br>
 Old Dominion University
 <br> 
 <br>
@@ -37,9 +38,6 @@ Member, Survey of Professional Forecasters, <br> Federal Reserve Bank of Philade
 
 - [ECON 700: Data Analysis with R](https://robertmmcnab.github.io/econ700/)
 
-## Research and Consulting
 
-- Placeholder for working papers and publications  
-- Coming soon: summaries of ongoing projects  
 
 :::

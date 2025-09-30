@@ -1,19 +1,45 @@
 ---
-
-title: "ECON 700"
+title: "Robert M. McNab"
+format:
+  html:
+    css: styles.css
 ---
+::: {.profile-container}
+![](images/bobmcnab.jpg){.profile-pic}
 
-# Welcome to ECON 700
+::: {.profile-text}
 
-This is the main landing page for ECON 700.
+Chair and Professor of Economics <br>
+Department of Economics <br>
+Old Dominion University
+<br> 
+<br>
+Director <br> 
+Dragas Center for Economic Analysis and Policy <br>
+Old Dominion University <br>
+<br>
+Member, Survey of Professional Forecasters, <br> Federal Reserve Bank of Philadelphia
 
-## Navigate
+<div class="links">
+  <a href="https://ceapodu.com/" target="_blank">Dragas Center</a>
+  <a href="https://odu.edu" target="_blank">ODU</a>
+  <a href="https://www.linkedin.com/in/bob-mcnab-1b149a75" target="_blank">LinkedIn</a>
+  <a href="https://github.com/robertmmcnab" target="_blank">GitHub</a>
+  <a href="mailto:rmcnab@odu.edu" target="_blank">Email</a>
 
-- [About](about.qmd)
-- [Module 1](mod-1-1-intro-to-r.qmd)
+</div>
+:::
+:::
 
-## Overview
+::: {.content-container}
 
-This site provides interactive and static examples for economic data analysis using R and WebR. 
+## Teaching
 
-Click on the links above to explore each section.
+- [ECON 700: Data Analysis with R](https://robertmmcnab.github.io/econ700/)
+
+## Research and Consulting
+
+- Placeholder for working papers and publications  
+- Coming soon: summaries of ongoing projects  
+
+:::

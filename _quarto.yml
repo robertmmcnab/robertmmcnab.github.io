@@ -1,29 +1,37 @@
 project:
   type: website
-  output-dir: docs   # <- critical line
+  output-dir: docs   # critical: GitHub Pages will serve from /docs
 
 website:
-  title: "ECON 700"
+  title: "Robert M. McNab"
   navbar:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "Research"
+      - text: "Consulting"
+      - text: "ECON 700"
+        href: https://robertmmcnab.github.io/econ700/
+      - text: "In the Media"
       - text: "About"
         href: about.qmd
-      - text: "Module 1"
-        href: mod-1-1-intro-to-r.qmd
 
-execute:
-  webR: true
+  page-footer:
+    left: "© 2025 Robert McNab"
+    right: 
+      - text: "ODU"
+        href: https://www.odu.edu
+      - text: "Dragas Center"
+        href: https://ceapodu.com/
+      - text: "GitHub"
+        href: https://github.com/robertmmcnab
+      - text: "LinkedIn"
+        href: https://www.linkedin.com/in/bob-mcnab-1b149a75
 
 format:
   html:
-    toc: true
-    toc-location: right
-    self-contained: false
-
-filters:
-  - webr
-
+    theme: cosmo
+    css: styles.css
+    toc: false
 
 

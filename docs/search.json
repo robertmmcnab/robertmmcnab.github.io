@@ -14,11 +14,11 @@
     "text": "Teaching\n\nECON 700: Data Analysis with R"
   },
   {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
+    "objectID": "index.html#research-and-consulting",
+    "href": "index.html#research-and-consulting",
     "title": "Robert M. McNab",
-    "section": "Research",
-    "text": "Research\n\nPlaceholder for working papers and publications\n\nComing soon: summaries of ongoing projects"
+    "section": "Research and Consulting",
+    "text": "Research and Consulting\n\nPlaceholder for working papers and publications\n\nComing soon: summaries of ongoing projects"
   },
   {
     "objectID": "about.html",
@@ -33,12 +33,5 @@
     "title": "About",
     "section": "",
     "text": "# About ECON 700\nECON 700 introduces students to R for economic analysis. You will learn to:\n- Explore datasets\n- Create plots\n- Perform calculations\n- Use interactive WebR examples in the browser"
-  },
-  {
-    "objectID": "index.html#research-and-consulting",
-    "href": "index.html#research-and-consulting",
-    "title": "Robert M. McNab",
-    "section": "Research and Consulting",
-    "text": "Research and Consulting\n\nPlaceholder for working papers and publications\n\nComing soon: summaries of ongoing projects"
   }
 ]

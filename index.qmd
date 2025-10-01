@@ -22,10 +22,10 @@ Old Dominion University <br>
 Member, Survey of Professional Forecasters, <br> Federal Reserve Bank of Philadelphia
 
 <div class="links">
-  <a href="https://ceapodu.com/" target="_blank">Dragas Center</a>
-  <a href="https://odu.edu" target="_blank">ODU</a>
   <a href="https://www.linkedin.com/in/bob-mcnab-1b149a75" target="_blank">LinkedIn</a>
   <a href="https://github.com/robertmmcnab" target="_blank">GitHub</a>
+  <a href="https://ceapodu.com/" target="_blank">Dragas Center</a>
+  <a href="https://odu.edu" target="_blank">ODU</a>
   <a href="mailto:rmcnab@odu.edu" target="_blank">Email</a>
 
 </div>

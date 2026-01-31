@@ -37,6 +37,7 @@ Member, Survey of Professional Forecasters, <br> Federal Reserve Bank of Philade
 ## Teaching
 
 - [ECON 700: Data Analysis with R](https://robertmmcnab.github.io/econ700/)
+- [ECON 706: Econometrics I](https://robertmmcnab.github.io/econ706/)
 
 
 

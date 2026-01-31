@@ -12,6 +12,8 @@ website:
       - text: "Consulting"
       - text: "ECON 700"
         href: https://robertmmcnab.github.io/econ700/
+      - text: "ECON 706"
+        href: https://robertmmcnab.github.io/econ706/
       - text: "In the Media"
       - text: "About"
         href: about.qmd
